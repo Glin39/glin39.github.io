@@ -1,97 +1,230 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Computer Science
+      institution: University of Toronto, Toronto, Ontario
+      year: 2021 - 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Co-Advised by Khai Truong and Alex Mariakakis         
+    - title: Masters in Computer Science
+      institution: Georgia Institute of Technology, Atlanta, Georgia
+      year: 2019 - 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Advised by Thad Starner
+    - title: Bachelors in Computer Science
+      institution: Georgia Institute of Technology, Atlanta, Georgia
+      year: 2016 - 2019
+      description:
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Student Researcher, Research Intern
+      institution: Google Inc., Mountain View, California, US
+      year: Summer 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Working with Anupam Pathak
+        - Investigated large language models for cognitive health screening.
+        - Developed an application that uses gaze to for mobile interaction and cognitive assessment.
+    - title: Research Intern
+      institution: Samsung AI Centre, Toronto, Ontario, US
+      year: 2022 
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Worked with Afsaneh Fazly
+        - Received competitive Mitacs accelerate award to work with top Canadian companies.
+        - Investigated user task experiences with advanced natural language smart assistants.
+        - Lead author on paper submitted to CHI 2023.
+    - title: Research Engineer Intern
+      institution: Samsung Electronics America - Think Tank Team, Mountain View, California, US
+      year: Summer 2020 
       description:
+        - Worked with Sajid Sadi, Curtis Aumiller
+        - Built wearable experience with voice augmentation and gesture-detection using smartwatch sensors. 
+        - Worked with an interdisciplinary team of bioengineers, physicists, business strategists, designers, and legal on productization of application. 
+    - title: Site Reliability Engineer Intern
+      institution: PayPal- AI Team, Scottsdale, Arizona, US
+      year: Summer 2019 
+      description:
+        - Innovated real-time data pipeline from internal sources to data warehouses using REST endpoints.  
+        - Built machine learning models to predict required computational resources based on server metrics.  
+        - Built NLP models for predicting product innovation ratings and metric data for PayPal innovation lab.
+    - title: Data & Analytics Operations Developer Intern
+      institution: Samsung Electronics America - Think Tank Team, Mountain View, California, US
+      year: Summer 2018
+      description:
+        - Built business intelligence tools for internal DevOps, sales, and SRE teams.  
+        - Built live-data hub connections and custom templates to save thousands of developer hours per year.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Start-Up Ventures
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Technical Product Manager & Software Engineer
+      institution: Teleportal
+      year: 2019 - 2021
+      description:
+        - Guided product vision, strategy, user experience, at augmented reality and CGI startup. 
+    - title: Research Engineer
+      institution: Biocircuit Technologies
+      year: 2021
+      description:
+        - Collaborated with clients and clinicians to design and engineer a full-stack application for collecting and analyzing nerve signals through wearable electrophysiology devices for multi-million dollar start-up.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - year: 2023
+    - title: Google PhD Fellowship
+      description: 
+        - Recognizes a select group of  graduate students doing exceptional and innovative research in areas relevant to computer science and related fields.
+        - Received $55,100 CAD (competitive)
+    - title: Wolfond Scholarship in Wireless Information Technology
+      description: 
+        - Awarded to graduate students who are pursuing research in areas related to systems, wireless, networks, HCI and digital media, based on academic merit.
+        - Received $5000 CAD, (competitive)
+    - year: 2022
+    - title: Mitacs Accelerate
+      description: 
+        - Funded research collaboration with top Canadian partner organizations based on relevant expertise.
+        - Received $20,000 CAD, (competitive)
+    - year: 2021
+    - title: Wolfond Fellowship
+      description: 
+        - Recognizes outstanding scholars who are pursuing research at University of Toronto.
+        - Received $20,000 CAD, (competitive)
+    - year: 2020
+    - title: GVU Distinguished Masters Student Award
+      description: 
+        - The GVU Distinguished Masters Student award is the highest honor given by the GVU Center at Georgia Tech to a singular Masters student. 
+        - Received $1000 CAD, (competitive)
+    - title: Distinction, Graduation Highest Honors
+    - title: Distinction, Thank-the-Teacher Certificate
+    - year: 2016 - 2019
+    - title: Zell-Miller Scholarship
+      description: 
+        - Georgia's Zell Miller Scholarship is available to students who have demonstrated academic achievement. Covers full tuition through undergraduate studies.
+        - Received $36,636 USD
+    - title: Distinction, Graduation Highest Honors
+    - title: Distinction, Thank-the-Teacher Certificate
+    - title: Prize / Award, Overall Hackathon Finalist
+    - title: Prize / Award, Best Use of Google Cloud Platform Winner
+    - title: Prize / Award, State Farm App Challenge Winner
+    - title: Prize / Award, Infotech On the Spot Prize
+    - title: Prize / Award, Top 3 Finalist
+    - title: Prize / Award, Most Creative Winner
+    - title: Prize / Award, Biggest Wow Factor
+    - title: Prize / Award, Top 3 Finalist 
 
-- title: Academic Interests
-  type: nested_list
+- title: Presentations and Invited Lectures
+  type: time_table
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Paper Presentation
+      description: 
+        - “Identifying Multimodal Context Awareness Requirements for Supporting User Interaction with Procedural Videos,”ACM CHI Conference on Human Factors in Computing Systems, April 2023.
+        - “Investigating Culturally Responsive Design for Menstrual Tracking and Sharing Practices Among Individuals with Minimal Sexual Education,” ACM CHI Conference on Human Factors in Computing Systems, April 2022.
+        - “Towards Finding the Optimum Position in the Visual Field for a Head Worn Display Used for Task Guidance with Non-registered Graphics,” ACM International Joint Conference on Pervasive and Ubiquitous Computing, September 2021.
+        - “Comparing Order Picking Guidance with Microsoft Hololens, Magic Leap, Google Glass XE and Paper,” International Workshop on Mobile Computing Systems and Applications, February 2021.
+        - “Conversational greeting detection using captioning on head worn displays versus smartphones,” ACM International Joint Conference on Pervasive and Ubiquitous Computing, September 2020.
+    - title: Other
+      description:
+        - Invited talk, “Investigating Gendered Health and Wellbeing through Tracking and Physiological Sensors,” Google Consumer Health Research Team Center Review, June 2022.
+        - Demo Presentation, “Towards an Understanding of Real-time Captioning on Head-worn Displays,” MobileHCI Conference Series, October 2020.
 
-- title: Other Interests
-  type: list
+- title: Teaching Experience
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: CSC2524H:Topics in Interactive Computing
+      institution: University of Toronto
+      year: 2023
+      description:
+        - Coordinate grading for weekly student assignments and discussion on the uses of LLMs and GPT in ubiquitous computing applications
+    - title: C4M Computing for Medicine Workshop
+      institution: University of Toronto
+      year: 2021 - 2022
+      description:
+        - Taught a three-phase workshop course averaging 20 medical students per semester, covering topics on python basics, human mobility and epidemic modeling, machine learning on sensor data
+        - Held office hours for assignments, projects, and lectures
+        - Review and coordinate project materials such as handouts, coding notebooks, lab assignments
+    - title: CS3651 Prototyping Intelligent Devices
+      institution: Georgia Institute of Technology
+      year: 2020
+      description:
+        -Taught an undergraduate course averaging 40 students per semester for one semester
+        - Developed quizzes and homework and coordinated grading and labs with a team of 2 teaching assistants
+    - title: CS 4605/CS7470 Mobile & Ubiquitous Computing
+      institution: Georgia Institute of Technology
+      year: 2019 - 2020
+      description:
+        - Taught a mixed undergraduate/graduate course averaging 80 students per semester 
+        - Developed quizzes, exams, and homework
+        - Coordinated grading and labs with a team of 3-4 teaching assistants
+        - Mentored multiple student groups for semester-long projects
+
+- title: University Involvement
+  type: time_table
+  contents:
+    - year: 2023
+    - title: Graduate Visit Day Graduate Student Panelist 
+      description: 
+        - On graduate visit day for the University, I help organize and participated in a graduate student panel where prospective students can learn and ask questions about the University.
+    - title: DGP Lab Faculty Candidates Student Roundtable Panelist
+      description:
+        - I welcome and provide graduate student perspectives for incoming prospective faculty interviewing with the University of Toronto DGP lab.
+    - title: CHAI Lab Reading Group Coordinator   
+      description: I help coordinate and organize reading groups within and outside of CHAI lab headed by Dr. Alex Mariakakis. These focus on ubiquitous computing and health.
+    - title: Undergraduate Mentor
+      description: I currently mentor four undergraduates on three different projects within the CHAI lab. They are currently learning about the research pipeline from project conception to paper writing. One is beginning to propose their own independent research and applying for Mitacs funding award.
+    - year: 2022
+    - title: Graduate Application Assistance Program (GAAP)
+      description: 
+        - As a volunteer, I offer support to prospective students in underrepresented groups in CS for their applications to grad school through mentorship and offering editing help. 
+    - title: PursueSTEM Mentorship Program
+      description: 
+        - Mentored team of grade 10 students as part of  capstone projects competing for Canada Wide Science Fair and Canadian Black Scientist Network Youth Regional Fair.
+    - title: PursueSTEM Workshop and Panel
+      description: 
+        - Help organize and create workshop activities for grade 10 students as part of an outreach program that encourages and supports Black students interested in STEM. Also held Q&A panel.
+    - year: 2021
+    - title: Department of Computer Science DCS Women 
+      description: 
+        - Regularly attend meetings and applied to be a mentor for female undergraduates interested in applying to graduate programs at University of Toronto.
+    - title: Women and Gender Equity Center 
+      description: 
+        - Regularly attend meetings on allyship, advocacy, and women’s health and hygiene resources  at University of Toronto.
+    - year: 2016 - 2020
+    - title: National Deaf Center and Office of Disabilities
+      description: 
+        - Was a notetaker for Georgia Tech’s Office of Disabilities as an extension of academic accommodations provided by the National Deaf Center. I took notes that were sent to students with disabilities and also earned a certificate for my accessible notes.
+    - title: Student Alumni Association  
+      description: Was an executive chair for the largest student organization on Georgia Tech campus. Prior, I was the mentorship chair and led the mentorship program between current and alumni students.
+    - title: Chinese Student Association
+      description: Was the fundraising chair for the Chinese Student Association. I organized and ran fundraising events to fund organizational events and activities.
+
+- title: Research Community Involvement
+  type: time_table
+  contents:
+    - year: 2023
+    - title: Committee Member, IMWUT Distinguished Paper Award
+      description: 
+        - Assist committee chairs in the selection and review process for the distinguished paper award.
+    - year: 2022
+    - title: UbiComp 2022 Student Volunteer
+      description: 
+        - Helped organize the five-day long premier conference for Ubiquitous Computing. UbiComp 2022 was collocated with the 2022 ACM International Symposium on Wearable Computers (ISWC’22) with shared Workshops and Tutorials. I helped lead student volunteer training, was an AV for main tracks that was broadcasted in Atlanta and Cambridge simultaneously, and also managed conference registration.
+ 
+- title: Community Involvement
+  type: time_table
+  contents:
+    - year: 2022 - 2023
+    - title: Girls SySTEM
+      description: 
+        - Part of the executive team for the Ontario-based non-profit organization. As an events lead for the Toronto chapter, I oversee a committee that organizes events that grows young girls' interests in STEM and inspires them to seek out STEM leadership opportunities. 
+    - year: 2021
+    - title: PAWS Chicago Foster
+      description: 
+        - I foster puppies, elderly, and sick/injured dogs for the rescue center PAWS Chicago. As a foster parent, I welcome pets into my home and provide them food, water, toys, training, socialization, and lots of love. 
+    - year: 2019 - 2020
+    - title: Trees Atlanta
+      description: Was a volunteer at Monthly Grow & Learns which are chances to learn about topics relating to the Urban Food Forest at Browns Mill and then help strengthen the food forest! I help care for the forest and orchard by weeding, watering, mulching, pruning, etc.
+    - title: Girls Who Code
+      description: 
+        - Was an administrative coordinator for the Georgia Tech chapter of Girls Who Code. I served as a communicator between parents, clubs, sponsors, and schools and the chapter. We lead after-school programs at local public schools for girls to learn technical skills.

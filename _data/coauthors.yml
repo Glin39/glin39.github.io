@@ -1,34 +1,23 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Mariakakis":
+  - firstname: ["Alex", "A", "A Mariakakis", "Alex Mariakakis"]
+    url: https://mariakakis.github.io/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Truong":
+  - firstname: ["Khai", "K", "KN Truong", "Khai Truong", "Khai Nhut", "Khai N"]
+    url: https://www.cs.toronto.edu/~khai/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Starner":
+  - firstname: ["Thad", "T", "T. S.", "Thad Starner"]
+    url: https://www.cc.gatech.edu/home/thad/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Mynatt":
+  - firstname: ["Elizabeth", "ED", "ED Mynatt", "Elizabeth D", "Elizabeth D Mynatt"]
+    url: https://www.khoury.northeastern.edu/people/elizabeth-mynatt/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Kumar":
+  - firstname: ["Neha", "N", "N Kumar"]
+    url: https://www.nehakumar.org/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
-
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Patel":
+  - firstname: ["Shwetak", "SN", "SN Patel"]
+    url: https://www.cs.washington.edu/people/faculty/shwetak/
