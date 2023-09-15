@@ -2,25 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Hey there! My name is Blue (Georgianna) Lin. 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: blue_lin.jpeg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am a PhD candidate in the Department of Computer Science at the [University of Toronto](https://www.utoronto.ca/) and a student researcher at [Google Health](https://health.google/health-research/). I currently work on `health sensing techniques` and `user-centered designs for health applications`, advised by [Khai N. Truong](https://www.cs.toronto.edu/~khai/) and [Alex Mariakakis](https://mariakakis.github.io/).  I completed my Bachelors and Masters in Computer Science at [Georgia Institute of Technology]() where I worked with [Thad Starner](https://www.cc.gatech.edu/home/thad/) and [Neha Kumar](https://www.nehakumar.org/).  I am honored to have received several notable awards, including the [Google PhD Fellowship](https://research.google/outreach/phd-fellowship/), Wolfond Fellowship, and [GVU Distinguished Masters Student Award](https://gvu.gatech.edu/gvu-graduate-student-awards-program-2020).
