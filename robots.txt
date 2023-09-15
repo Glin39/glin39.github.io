@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Glin39.github.io/blue/sitemap.xml
+Sitemap: https://Glin39.github.io/sitemap.xml
