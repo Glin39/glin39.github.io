@@ -105,14 +105,14 @@
         - Received $36,636 USD
     - title: Distinction, Graduation Highest Honors
     - title: Distinction, Thank-the-Teacher Certificate
-    - title: Prize / Award, Overall Hackathon Finalist
-    - title: Prize / Award, Best Use of Google Cloud Platform Winner
-    - title: Prize / Award, State Farm App Challenge Winner
-    - title: Prize / Award, Infotech On the Spot Prize
-    - title: Prize / Award, Top 3 Finalist
-    - title: Prize / Award, Most Creative Winner
-    - title: Prize / Award, Biggest Wow Factor
-    - title: Prize / Award, Top 3 Finalist 
+    - title: Hackathon Prize / Award, Overall Hackathon Finalist
+    - title: Hackathon Prize / Award, Best Use of Google Cloud Platform Winner
+    - title: Hackathon Prize / Award, State Farm App Challenge Winner
+    - title: Hackathon Prize / Award, Infotech On the Spot Prize
+    - title: Hackathon Prize / Award, Top 3 Finalist
+    - title: Hackathon Prize / Award, Most Creative Winner
+    - title: Hackathon Prize / Award, Biggest Wow Factor
+    - title: Hackathon Prize / Award, Top 3 Finalist 
 
 - title: Presentations and Invited Lectures
   type: time_table
@@ -163,6 +163,9 @@
   type: time_table
   contents:
     - year: 2023
+    - title: Computer Science Graduate Society Treasurer 
+      description: 
+        - Senior executive member overseeing financial business and budget spending of Society which acts as a course union for the graduate students of the Department of Computer Science at the University of Toronto.
     - title: Graduate Visit Day Graduate Student Panelist 
       description: 
         - On graduate visit day for the University, I help organize and participated in a graduate student panel where prospective students can learn and ask questions about the University.
