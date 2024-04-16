@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Receieved Departmental Award, Wolfond Scholarship, for 2023-2024 academic session. 🎉
+Received Departmental Award, Wolfond Scholarship, for 2023-2024 academic session. 🎉
