@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Awarded the Google PhD Fellowship! 🎉
+Awarded the [Google PhD Fellowship](https://research.google/programs-and-events/phd-fellowship/)! 🎉

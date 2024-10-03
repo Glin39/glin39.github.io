@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Became Adel S. Sedra Distinguished Graduate Award finalist and recognized as Univiersity of Toronto Alumni Association Graduate Scholar. 🎉
+Became [Adel S. Sedra Distinguished Graduate Award finalist](https://alumni.utoronto.ca/community/awards/awex/sedra-award) and recognized as Univiersity of Toronto Alumni Association Graduate Scholar. 🎉
