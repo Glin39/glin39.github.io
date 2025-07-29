@@ -271,6 +271,7 @@ nav_order: 2
   font-size: 1.2rem;
   opacity: 0.9;
   margin-bottom: 2rem;
+  color: white;
 }
 
 .preview-section {
@@ -290,6 +291,7 @@ nav_order: 2
   font-size: 0.95rem;
   line-height: 1.5;
   opacity: 0.9;
+  color: white;
 }
 
 .case-study-metrics {
@@ -312,6 +314,7 @@ nav_order: 2
 .metric-label {
   font-size: 0.9rem;
   opacity: 0.8;
+  color: white;
 }
 
 .hero-image {

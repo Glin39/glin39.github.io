@@ -14,9 +14,9 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-<p style="color:#1e90ff; font-weight:bold;">
+<p style="font-weight:bold;">
   I am on the job market this year looking for industry research positions (e.g., Research Scientist). 
-  <a href="assets/pdf/Blue_CV.pdf" style="color:#1e90ff; font-weight:bold;">Here is my CV</a>. Please reach out 😊
+  <a href="assets/pdf/Blue_CV.pdf" style="font-weight:bold;">Here is my CV</a>. Please reach out 😊
 </p>
 
 I am a PhD candidate in the Department of Computer Science at the University of Toronto, advised by [Khai N. Truong](https://www.cs.toronto.edu/~khai/) and [Alex Mariakakis](https://mariakakis.github.io/) and a student researcher at [Google Health](https://health.google/health-research/). I focus on understanding how individuals engage with complex, multimodal personal data and developing user-centered designs and systems to help people navigate uncertainty and align tools with their diverse mental models.
