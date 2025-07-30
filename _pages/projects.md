@@ -106,25 +106,6 @@ nav_order: 2
         <a href="{{ '/projects/cooking_assistant/' | relative_url }}" class="card-link">Learn More →</a>
       </div>
     </div>
-
-    <div class="research-card">
-      <div class="card-header">
-        <img src="{{ '/assets/img/captioning.gif' | relative_url }}" alt="Captioning on Glass" class="card-image">
-      </div>
-      <div class="card-content">
-        <h3>Accessible Real-Time Captioning</h3>
-        <p>Captioning on Glass (CoG) for deaf and hard-of-hearing users using head-worn displays such as Google Glass</p>
-        <div class="card-tech">
-          <span class="tech-tag">Head-Worn Displays</span>
-          <span class="tech-tag">Accessibility</span>
-          <span class="tech-tag">HCI</span>
-        </div>
-      </div>
-      <div class="card-footer">
-        <a href="{{ '/projects/captioning/' | relative_url }}" class="card-link">Learn More →</a>
-      </div>
-    </div>
-
     <div class="research-card">
       <div class="card-header">
         <img src="{{ '/assets/img/order_picking.gif' | relative_url }}" alt="Order Picking AR" class="card-image">
@@ -135,13 +116,32 @@ nav_order: 2
         <div class="card-tech">
           <span class="tech-tag">Head-Worn Displays</span>
           <span class="tech-tag">Interface Design</span>
-          <span class="tech-tag">HCI</span>
+          <span class="tech-tag">Statistical Analysis</span>
         </div>
       </div>
       <div class="card-footer">
         <a href="{{ '/projects/order_picking/' | relative_url }}" class="card-link">Learn More →</a>
       </div>
     </div>
+    <div class="research-card">
+      <div class="card-header">
+        <img src="{{ '/assets/img/captioning.gif' | relative_url }}" alt="Captioning on Glass" class="card-image">
+      </div>
+      <div class="card-content">
+        <h3>Accessible Real-Time Captioning</h3>
+        <p>Captioning on Glass (CoG) for deaf and hard-of-hearing users using head-worn displays such as Google Glass</p>
+        <div class="card-tech">
+          <span class="tech-tag">Head-Worn Displays</span>
+          <span class="tech-tag">Accessibility</span>
+          <span class="tech-tag">Statistical Analysis</span>
+        </div>
+      </div>
+      <div class="card-footer">
+        <a href="{{ '/projects/captioning/' | relative_url }}" class="card-link">Learn More →</a>
+      </div>
+    </div>
+
+    
   {%- endif -%}
 </div>
 
