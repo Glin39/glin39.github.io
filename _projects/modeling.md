@@ -1202,7 +1202,7 @@ related_publications: lin2024wrist, lin2023blood
 .result-list li {
   padding: 4px 0;
   font-size: 0.9rem;
-  color: var(--card-text-color);
+  color: var(--text-light);
 }
 
 /* Design Implications Table */
