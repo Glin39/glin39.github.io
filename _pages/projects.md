@@ -94,16 +94,33 @@ nav_order: 2
         <img src="{{ '/assets/img/cooking.png' | relative_url }}" alt="Cooking Assistant" class="card-image">
       </div>
       <div class="card-content">
-        <h3>Multimodal Cooking Assistant</h3>
+        <h3>Smart Cooking Assistant</h3>
         <p>Context-aware AI assistant for hands-free cooking interactions and video tutorial support</p>
         <div class="card-tech">
           <span class="tech-tag">Multimodal Assistants</span>
           <span class="tech-tag">UX Research</span>
-          <span class="tech-tag">AI</span>
+          <span class="tech-tag">Applied AI</span>
         </div>
       </div>
       <div class="card-footer">
         <a href="{{ '/projects/cooking_assistant/' | relative_url }}" class="card-link">Learn More →</a>
+      </div>
+    </div>
+    <div class="research-card">
+      <div class="card-header">
+        <img src="{{ '/assets/img/loess.jpeg' | relative_url }}" alt="Loess of WST" class="card-image">
+      </div>
+      <div class="card-content">
+        <h3>Modeling Wearable and Physiological Data Relationships</h3>
+        <p>Building models to capture physiological variations across the menstrual cycle</p>
+        <div class="card-tech">
+          <span class="tech-tag">Wearables</span>
+          <span class="tech-tag">Multimodal Sensing</span>
+          <span class="tech-tag">Statistical and Machine Learning</span>
+        </div>
+      </div>
+      <div class="card-footer">
+        <a href="{{ '/projects/modeling/' | relative_url }}" class="card-link">Learn More →</a>
       </div>
     </div>
     <div class="research-card">
