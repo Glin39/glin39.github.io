@@ -1,9 +1,14 @@
 - title: Education
   type: time_table
   contents:
+    - title: Postdoctoral Research Fellow
+      institution: University of Columbia, New York, New York
+      year: 2025 - 
+      description:
+        - Co-Advised by Orson Xu and Noémie Elhadad  
     - title: PhD in Computer Science
       institution: University of Toronto, Toronto, Ontario
-      year: 2021 - 
+      year: 2021 - 2025
       description:
         - Co-Advised by Khai Truong and Alex Mariakakis         
     - title: Masters in Computer Science
@@ -21,7 +26,7 @@
   contents:
     - title: Student Researcher, Research Intern
       institution: Google Inc., Mountain View, California, US
-      year: Summer 2022
+      year: 2022 - 2025
       description:
         - Working with Anupam Pathak
         - Investigated large language models for cognitive health screening.

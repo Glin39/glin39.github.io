@@ -3,75 +3,107 @@ layout: default
 ---
 
 <!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-            {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-          </h1>
-          <p class="desc">{{ page.subtitle }}</p>
-        </header>
+<div class="about-page-redesign">
+  <!-- Hero Section with Profile -->
+  <div class="hero-section">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="hero-title">
+          {% if site.title == "blank" -%}
+            <span class="first-name">{{ site.first_name }}</span>
+            <span class="last-name">{{ site.middle_name }} {{ site.last_name }}</span>
+          {%- else -%}
+            {{ site.title }}
+          {%- endif %}
+        </h1>
+        <p class="hero-subtitle">{{ page.subtitle }}</p>
+      </div>
+      
+      {% if page.profile -%}
+      <div class="hero-image">
+        {%- if page.profile.image %}
+          {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+          {% if page.profile.image_circular %}
+            {%- assign profile_image_class = "profile-img circular" -%}
+          {% else %}
+            {%- assign profile_image_class = "profile-img" -%}
+          {% endif %}
+          {% include figure.html
+          path=profile_image_path
+          class=profile_image_class
+          alt=page.profile.image
+          cache_bust=true -%}
+        {% endif -%}
+      </div>
+      {%- endif %}
+    </div>
+  </div>
 
-        <article>
-          {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+  <!-- Main Content Grid -->
+  <div class="content-grid">
+    <!-- Left Column: About Content -->
+    <div class="main-content">
+      <article class="about-text">
+        {{ content }}
+      </article>
 
-              {% if page.profile.image_circular %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-              {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-              {% endif %}
-
-              {% include figure.html
-              path=profile_image_path
-              class=profile_image_class
-              alt=page.profile.image
-              cache_bust=true -%}
-            {% endif -%}
-            {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
-            {%- endif %}
+      <!-- Social Icons in Main Content -->
+      {%- if page.social %}
+        <div class="social-section">
+          <div class="contact-icons">
+            {% include social.html %}
+          </div>
+          {%- if site.contact_note %}
+          <div class="contact-note">
+            {{ site.contact_note }}
           </div>
           {%- endif %}
+        </div>
+      {%- endif %}
 
-          <div class="clearfix">
-            {{ content }}
-          </div>
+      <!-- Selected papers -->
+      {% if page.selected_papers -%}
+        <div class="section-block">
+          <h2 class="section-title">
+            <a href="{{ '/publications/' | relative_url }}">Selected Publications</a>
+          </h2>
+          {%- include selected_papers.html %}
+        </div>
+      {%- endif %}
 
-          <!-- News -->
-          {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+      <!-- Latest posts -->
+      {% if page.latest_posts -%}
+        <div class="section-block">
+          <h2 class="section-title">
+            <a href="{{ '/blog/' | relative_url }}">Latest Posts</a>
+          </h2>
+          {%- include latest_posts.html %}
+        </div>
+      {%- endif %}
+
+      <!-- News Section -->
+      {% if page.news and site.announcements.enabled -%}
+        <div class="news-card">
+          <h2 class="section-title">
+            <a href="{{ '/news/' | relative_url }}">News & Updates</a>
+          </h2>
+          <div class="news-content">
             {%- include news.html limit=true %}
-          {%- endif %}
+          </div>
+        </div>
+      {%- endif %}
+    </div>
 
-          <!-- Latest posts -->
-          {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
-            {%- include latest_posts.html %}
-          {%- endif %}
-
-          <!-- Selected papers -->
-          {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
-            {%- include selected_papers.html %}
-          {%- endif %}
-
-          <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
-
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
-
-            </div>
-          {%- endif %}
-        </article>
-
+    <!-- Right Column: Sidebar (if needed for other content) -->
+    <aside class="sidebar">
+      {%- if page.profile.address %}
+      <div class="info-widget">
+        <h3 class="widget-subtitle">Location</h3>
+        <div class="address-content">
+          {{ page.profile.address }}
+        </div>
+      </div>
+      {%- endif %}
+    </aside>
+  </div>
 </div>
