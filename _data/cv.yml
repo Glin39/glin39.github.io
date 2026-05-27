@@ -2,20 +2,24 @@
   type: time_table
   contents:
     - title: Postdoctoral Research Fellow
-      institution: University of Columbia, New York, New York
-      year: 2025 - 
+      institution: Columbia University, New York, New York
+      year: 2025 -
       description:
-        - Co-Advised by Orson Xu and Noémie Elhadad  
+        - Co-Advised by Xuhai "Orson" Xu and Noémie Elhadad
     - title: PhD in Computer Science
       institution: University of Toronto, Toronto, Ontario
       year: 2021 - 2025
       description:
-        - Co-Advised by Khai Truong and Alex Mariakakis         
+        - "Dissertation: Multimodal Tracking with Ubiquitous Devices to Foster Holistic Menstrual Health Sensemaking"
+        - Co-Advised by Khai Truong and Alex Mariakakis
+        - "Committee: Gillian Einstein, Fanny Chevalier, Stephen Friend"
     - title: Masters in Computer Science
       institution: Georgia Institute of Technology, Atlanta, Georgia
       year: 2019 - 2020
       description:
+        - "Focus: Assistive wearables, head-worn displays, menstrual tracking"
         - Advised by Thad Starner
+        - "Collaborators: Jim Foley, Neha Kumar, Elizabeth Mynatt"
     - title: Bachelors in Computer Science
       institution: Georgia Institute of Technology, Atlanta, Georgia
       year: 2016 - 2019
@@ -28,17 +32,17 @@
       institution: Google Inc., Mountain View, California, US
       year: 2022 - 2025
       description:
-        - Working with Anupam Pathak
-        - Investigated large language models for cognitive health screening.
-        - Developed an application that uses gaze to for mobile interaction and cognitive assessment.
+        - Mentor: Anupam Pathak
+        - Developed LLM-powered prototypes to help users interpret personal health data via memory capture, goal refinement, and reflection.
+        - Conducted cross-cultural user studies (U.S., Japan) to assess usability, trust, and perceptions of AI-supported goal setting.
+        - Improved prompting, tool integration, and interface feedback based on insights, shaping product design. Presented to Google Execs.
     - title: Research Intern
       institution: Samsung AI Centre, Toronto, Ontario, US
       year: 2022 
       description:
-        - Worked with Afsaneh Fazly
-        - Received competitive Mitacs accelerate award to work with top Canadian companies.
+        - Mentor: Afsaneh Fazly
         - Investigated user task experiences with advanced natural language smart assistants.
-        - Lead author on paper submitted to CHI 2023.
+        - Conducted 30-participant user study and analyzed data with open-coded sessions and statistical analysis.
     - title: Research Engineer Intern
       institution: Samsung Electronics America - Think Tank Team, Mountain View, California, US
       year: Summer 2020 
@@ -54,21 +58,16 @@
         - Built machine learning models to predict required computational resources based on server metrics.  
         - Built NLP models for predicting product innovation ratings and metric data for PayPal innovation lab.
     - title: Data & Analytics Operations Developer Intern
-      institution: Samsung Electronics America - Think Tank Team, Mountain View, California, US
+      institution: Procter & Gamble, Cincinnati, Ohio, US
       year: Summer 2018
       description:
-        - Built business intelligence tools for internal DevOps, sales, and SRE teams.  
-        - Built live-data hub connections and custom templates to save thousands of developer hours per year.
+        - Created big data visualization to provide business intelligence for internal DevOps, sales, and SRE teams.
+        - Saved tens of thousands of developer hours per year with live-data hub connections and custom templates.
 
 - title: Start-Up Ventures
   type: time_table
   contents:
-    - title: Technical Product Manager & Software Engineer
-      institution: Teleportal
-      year: 2019 - 2021
-      description:
-        - Guided product vision, strategy, user experience, at augmented reality and CGI startup. 
-    - title: Research Engineer
+    - title: Fullstack Engineer
       institution: Biocircuit Technologies
       year: 2021
       description:
@@ -77,35 +76,55 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026
+    - title: Bill Buxton Outstanding Dissertation Award in HCI
+      description:
+        - Presented annually by Graphics Interface to the single most outstanding dissertation in Human-Computer Interaction from a Canadian institution.
+        - Received $5,000 CAD (competitive)
+    - title: Canadian CS Distinguished Dissertation Award
+      description:
+        - Awarded annually by CS-Can|Info-Can to the top PhD dissertation in Computer Science across all Canadian universities.
+        - Received $1,000 CAD (competitive)
+    - year: 2025
+    - title: National Library of Medicine Fellowship
+      description:
+        - Appointed to Columbia University's National Library of Medicine Training Grant for post-doctoral research fellows.
+        - Received $72,116 USD
+    - year: 2024
+    - title: University of Toronto Alumni Association Graduate Scholar
+      description:
+        - Adel S. Sedra Distinguished Graduate Award finalist, a fellowship awarded annually to a doctoral student who demonstrates outstanding academic and extracurricular leadership.
+        - Received $1,000 CAD (competitive)
+    - year: 2023 - 2025
+    - title: Department of Computer Science Award
+      description:
+        - Awarded thrice by the University of Toronto's Department of Computer Science for 2022, 2023, and 2024 academic sessions based on research and academic merit.
+        - Received $15,000 CAD ($5,000 each, competitive)
     - year: 2023
     - title: Google PhD Fellowship
-      description: 
-        - Recognizes a select group of  graduate students doing exceptional and innovative research in areas relevant to computer science and related fields.
+      description:
+        - Recognizes a select group of graduate students doing exceptional and innovative research in areas relevant to computer science and related fields.
         - Received $55,100 CAD (competitive)
-    - title: Wolfond Scholarship in Wireless Information Technology
-      description: 
-        - Awarded to graduate students who are pursuing research in areas related to systems, wireless, networks, HCI and digital media, based on academic merit.
-        - Received $5000 CAD, (competitive)
     - year: 2022
     - title: Mitacs Accelerate
-      description: 
+      description:
         - Funded research collaboration with top Canadian partner organizations based on relevant expertise.
-        - Received $20,000 CAD, (competitive)
+        - Received $20,000 CAD (competitive)
     - year: 2021
     - title: Wolfond Fellowship
-      description: 
+      description:
         - Recognizes outstanding scholars who are pursuing research at University of Toronto.
-        - Received $20,000 CAD, (competitive)
+        - Received $20,000 CAD (competitive)
     - year: 2020
     - title: GVU Distinguished Masters Student Award
-      description: 
-        - The GVU Distinguished Masters Student award is the highest honor given by the GVU Center at Georgia Tech to a singular Masters student. 
-        - Received $1000 CAD, (competitive)
+      description:
+        - The GVU Distinguished Masters Student award is the highest honor given by the GVU Center at Georgia Tech to a singular Masters student.
+        - Received $1,000 USD (competitive)
     - title: Distinction, Graduation Highest Honors
     - title: Distinction, Thank-the-Teacher Certificate
     - year: 2016 - 2019
     - title: Zell-Miller Scholarship
-      description: 
+      description:
         - Georgia's Zell Miller Scholarship is available to students who have demonstrated academic achievement. Covers full tuition through undergraduate studies.
         - Received $36,636 USD
     - title: Distinction, Graduation Highest Honors
@@ -117,27 +136,38 @@
     - title: Hackathon Prize / Award, Top 3 Finalist
     - title: Hackathon Prize / Award, Most Creative Winner
     - title: Hackathon Prize / Award, Biggest Wow Factor
-    - title: Hackathon Prize / Award, Top 3 Finalist 
+    - title: Hackathon Prize / Award, Top 3 Finalist
 
 - title: Presentations and Invited Lectures
   type: time_table
   contents:
+    - title: Keynote
+      description:
+        - "\"End-to-End Research to Foster Holistic Menstrual Health Sensemaking,\" Cycles of Care Workshop Series, University of Zurich, Zurich, Switzerland, May 2026."
     - title: Paper Presentation
-      description: 
-        - “Identifying Multimodal Context Awareness Requirements for Supporting User Interaction with Procedural Videos,”ACM CHI Conference on Human Factors in Computing Systems, April 2023.
-        - “Investigating Culturally Responsive Design for Menstrual Tracking and Sharing Practices Among Individuals with Minimal Sexual Education,” ACM CHI Conference on Human Factors in Computing Systems, April 2022.
-        - “Towards Finding the Optimum Position in the Visual Field for a Head Worn Display Used for Task Guidance with Non-registered Graphics,” ACM International Joint Conference on Pervasive and Ubiquitous Computing, September 2021.
-        - “Comparing Order Picking Guidance with Microsoft Hololens, Magic Leap, Google Glass XE and Paper,” International Workshop on Mobile Computing Systems and Applications, February 2021.
-        - “Conversational greeting detection using captioning on head worn displays versus smartphones,” ACM International Joint Conference on Pervasive and Ubiquitous Computing, September 2020.
+      description:
+        - “\”Understanding the Menstrual Experience through Longitudinal Tracking and Physiological Sensors,\” ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp), October 2024.”
+        - “\”Functional Design Requirements to Facilitate Menstrual Health Data Exploration,\” ACM CHI Conference on Human Factors in Computing Systems, May 2024.”
+        - “\”Identifying Multimodal Context Awareness Requirements for Supporting User Interaction with Procedural Videos,\” ACM CHI Conference on Human Factors in Computing Systems, April 2023.”
+        - “\”Investigating Culturally Responsive Design for Menstrual Tracking and Sharing Practices Among Individuals with Minimal Sexual Education,\” ACM CHI Conference on Human Factors in Computing Systems, April 2022.”
+        - “\”Towards Finding the Optimum Position in the Visual Field for a Head Worn Display Used for Task Guidance with Non-registered Graphics,\” ACM International Joint Conference on Pervasive and Ubiquitous Computing, September 2021.”
+        - “\”Comparing Order Picking Guidance with Microsoft Hololens, Magic Leap, Google Glass XE and Paper,\” International Workshop on Mobile Computing Systems and Applications, February 2021.”
+        - “\”Conversational greeting detection using captioning on head worn displays versus smartphones,\” ACM International Joint Conference on Pervasive and Ubiquitous Computing, September 2020.”
     - title: Other
       description:
-        - Invited talk, “Investigating Gendered Health and Wellbeing through Tracking and Physiological Sensors,” Google Consumer Health Research Team Center Review, June 2022.
-        - Demo Presentation, “Towards an Understanding of Real-time Captioning on Head-worn Displays,” MobileHCI Conference Series, October 2020.
+        - “Invited Talk, \”Transforming Commodity Health Data into Meaningful Insights,\” Einstein Cognitive Neuroscience, Gender and Health Lab, February 2025.”
+        - “Invited Talk, \”Investigating Gendered Health and Wellbeing through Tracking and Physiological Sensors,\” Google Consumer Health Research Team Center Review, June 2022.”
+        - “Demo Presentation, \”Towards an Understanding of Real-time Captioning on Head-worn Displays,\” MobileHCI Conference Series, October 2020.”
 
 - title: Teaching Experience
   type: time_table
   contents:
-    - title: CSC2524H:Topics in Interactive Computing
+    - title: CSC318H - The Design of Interactive Computational Media
+      institution: University of Toronto
+      year: 2024
+      description:
+        - Facilitated hands-on studio sessions, guided students through user-centered design processes, provided feedback on project iterations, and evaluated final design solutions.
+    - title: CSC2524H - Topics in Interactive Computing
       institution: University of Toronto
       year: 2023
       description:
@@ -210,15 +240,32 @@
 - title: Research Community Involvement
   type: time_table
   contents:
+    - year: 2025
+    - title: Program Committee Member, CHI Conference
+      description:
+        - Serve as a program committee member for the Understanding People — Mixed and Alternative Methods Committee for the 2026 ACM Conference on Human Factors in Computing Systems.
+    - title: Program Committee Member, Conversational User Interfaces Conference
+      description:
+        - Served as a program committee member for the full paper track for the 2025 ACM Conversational User Interfaces Conference.
     - year: 2023
     - title: Committee Member, IMWUT Distinguished Paper Award
-      description: 
+      description:
         - Assist committee chairs in the selection and review process for the distinguished paper award.
     - year: 2022
     - title: UbiComp 2022 Student Volunteer
-      description: 
+      description:
         - Helped organize the five-day long premier conference for Ubiquitous Computing. UbiComp 2022 was collocated with the 2022 ACM International Symposium on Wearable Computers (ISWC’22) with shared Workshops and Tutorials. I helped lead student volunteer training, was an AV for main tracks that was broadcasted in Atlanta and Cambridge simultaneously, and also managed conference registration.
- 
+    - title: Peer Reviewer
+      description:
+        - 2 recognitions for CHI 2024 Papers, 1 recognition for CHI 2025 Papers, 1 recognition for UIST 2025 Papers
+        - ACM Conference on Human Factors in Computing Systems (CHI)
+        - ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)
+        - Conversational User Interfaces Conference (CUI)
+        - ACM Transactions on Computing for Healthcare (ACM Health)
+        - Transactions on Machine Learning Research (TLMR)
+        - BMC Public Health
+        - IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR)
+
 - title: Community Involvement
   type: time_table
   contents:
