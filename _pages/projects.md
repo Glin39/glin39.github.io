@@ -53,7 +53,7 @@ nav_order: 2
   </div>
   
   <div class="case-study-visual">
-    <img src="{{ '/assets/img/app_gif.gif' | relative_url }}" alt="Menstrual Health Tracking Interface" class="hero-image">
+    <img src="{{ '/assets/img/app_gif.gif' | relative_url }}" alt="Menstrual Health Tracking Interface" class="hero-image" loading="lazy">
   </div>
 </div>
 
@@ -91,7 +91,7 @@ nav_order: 2
     <!-- Fallback to manual projects if no featured projects exist -->
     <div class="research-card">
       <div class="card-header">
-        <img src="{{ '/assets/img/cooking.png' | relative_url }}" alt="Cooking Assistant" class="card-image">
+        <img src="{{ '/assets/img/cooking.png' | relative_url }}" alt="Cooking Assistant" class="card-image" loading="lazy">
       </div>
       <div class="card-content">
         <h3>Smart Cooking Assistant</h3>
@@ -108,7 +108,7 @@ nav_order: 2
     </div>
     <div class="research-card">
       <div class="card-header">
-        <img src="{{ '/assets/img/loess.jpeg' | relative_url }}" alt="Loess of WST" class="card-image">
+        <img src="{{ '/assets/img/loess.jpeg' | relative_url }}" alt="Loess of WST" class="card-image" loading="lazy">
       </div>
       <div class="card-content">
         <h3>Modeling Wearable and Physiological Data Relationships</h3>
@@ -125,7 +125,7 @@ nav_order: 2
     </div>
     <div class="research-card">
       <div class="card-header">
-        <img src="{{ '/assets/img/order_picking.gif' | relative_url }}" alt="Order Picking AR" class="card-image">
+        <img src="{{ '/assets/img/order_picking.gif' | relative_url }}" alt="Order Picking AR" class="card-image" loading="lazy">
       </div>
       <div class="card-content">
         <h3>Industrial AR for Warehouses</h3>
@@ -142,7 +142,7 @@ nav_order: 2
     </div>
     <div class="research-card">
       <div class="card-header">
-        <img src="{{ '/assets/img/captioning.gif' | relative_url }}" alt="Captioning on Glass" class="card-image">
+        <img src="{{ '/assets/img/captioning.gif' | relative_url }}" alt="Captioning on Glass" class="card-image" loading="lazy">
       </div>
       <div class="card-content">
         <h3>Accessible Real-Time Captioning</h3>
@@ -170,7 +170,7 @@ nav_order: 2
       {%- for project in hackathon_projects -%}
       <div class="hackathon-item">
         <div class="hackathon-image">
-          <img src="{{ project.img | relative_url }}" alt="{{ project.title }}" class="hackathon-img">
+          <img src="{{ project.img | relative_url }}" alt="{{ project.title }}" class="hackathon-img" loading="lazy">
           <div class="hackathon-overlay">
             <h4>{{ project.title }}</h4>
             <p>{{ project.description }}</p>
@@ -192,7 +192,7 @@ nav_order: 2
       <!-- Fallback hackathon projects -->
       <div class="hackathon-item">
         <div class="hackathon-image">
-          <img src="{{ '/assets/img/wondarland.png' | relative_url }}" alt="wondARland AR Social Experience" class="hackathon-img">
+          <img src="{{ '/assets/img/wondarland.png' | relative_url }}" alt="wondARland AR Social Experience" class="hackathon-img" loading="lazy">
           <div class="hackathon-overlay">
             <h4>wondARland</h4>
             <p>AR Social Experience</p>
@@ -208,7 +208,7 @@ nav_order: 2
 
       <div class="hackathon-item">
         <div class="hackathon-image">
-          <img src="{{ '/assets/img/pitch.jpg' | relative_url }}" alt="Personalized interview guidance" class="hackathon-img">
+          <img src="{{ '/assets/img/pitch.jpg' | relative_url }}" alt="Personalized interview guidance" class="hackathon-img" loading="lazy">
           <div class="hackathon-overlay">
             <h4>Pitch</h4>
             <p>Personalized Interview Guidance</p>
@@ -224,7 +224,7 @@ nav_order: 2
 
       <div class="hackathon-item">
         <div class="hackathon-image">
-          <img src="{{ '/assets/img/ubi.png' | relative_url }}" alt="Ubi Translation Service" class="hackathon-img">
+          <img src="{{ '/assets/img/ubi.png' | relative_url }}" alt="Ubi Translation Service" class="hackathon-img" loading="lazy">
           <div class="hackathon-overlay">
             <h4>Ubi</h4>
             <p>Real-time Translation</p>
@@ -240,7 +240,7 @@ nav_order: 2
 
       <div class="hackathon-item">
         <div class="hackathon-image">
-          <img src="{{ '/assets/img/scan.png' | relative_url }}" alt="Scan" class="hackathon-img">
+          <img src="{{ '/assets/img/scan.png' | relative_url }}" alt="Scan" class="hackathon-img" loading="lazy">
           <div class="hackathon-overlay">
             <h4>Scan</h4>
             <p>AR bills and coins recognition</p>
@@ -343,7 +343,7 @@ nav_order: 2
 
 .cta-button.primary {
   background: white;
-  color: #667eea;
+  color: #b509ac;
   padding: 1rem 2rem;
   border-radius: 30px;
   text-decoration: none;
@@ -356,7 +356,7 @@ nav_order: 2
 .cta-button.primary:hover {
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-  color: #667eea;
+  color: #b509ac;
   text-decoration: none;
 }
 
@@ -366,6 +366,8 @@ nav_order: 2
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
   margin: 3rem 0;
+  content-visibility: auto;
+  contain-intrinsic-size: 0 600px;
 }
 
 .research-card {
@@ -399,7 +401,7 @@ nav_order: 2
   top: 1rem;
   right: 1rem;
   background: rgba(255,255,255,0.9);
-  color: #667eea;
+  color: #b509ac;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.8rem;
@@ -430,8 +432,8 @@ nav_order: 2
 }
 
 .tech-tag {
-  background: #e3f2fd;
-  color: #1976d2;
+  background: #fce4fc;
+  color: #b509ac;
   padding: 0.3rem 0.8rem;
   border-radius: 12px;
   font-size: 0.8rem;
@@ -443,14 +445,14 @@ nav_order: 2
 }
 
 .card-link {
-  color: #667eea;
+  color: #b509ac;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s ease;
 }
 
 .card-link:hover {
-  color: #5a6fd8;
+  color: #8a0ea8;
   text-decoration: none;
 }
 
@@ -459,6 +461,8 @@ nav_order: 2
   margin-top: 4rem;
   padding-top: 2rem;
   border-top: 2px solid #f0f0f0;
+  content-visibility: auto;
+  contain-intrinsic-size: 0 600px;
 }
 
 .hackathon-grid {
@@ -480,6 +484,7 @@ nav_order: 2
   margin-bottom: 1rem;
   cursor: pointer;
   transition: transform 0.3s ease;
+  transform: translateZ(0);
 }
 
 .hackathon-image:hover {
@@ -533,14 +538,14 @@ nav_order: 2
 }
 
 .hackathon-link {
-  color: #667eea;
+  color: #b509ac;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s ease;
 }
 
 .hackathon-link:hover {
-  color: #5a6fd8;
+  color: #8a0ea8;
   text-decoration: none;
 }
 

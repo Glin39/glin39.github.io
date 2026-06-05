@@ -53,7 +53,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 100%
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -75,10 +75,10 @@ twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: georgianna-lin # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: https://scholar.google.com/citations?user=rgcuaxcAAAAJ&hl=en&oi=ao # your Google Scholar ID
+scholar_userid: rgcuaxcAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: https://orcid.org/0000-0002-9993-2718 # your ORCID ID
+orcid_id: 0000-0002-9993-2718 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -103,6 +103,8 @@ facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
+
+navbar_subtitle: Postdoctoral Research Fellow · Columbia University
 
 contact_note: >
   Reach out if you are interested in collaborating or have any questions!
@@ -222,7 +224,6 @@ plugins:
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2

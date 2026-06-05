@@ -3,9 +3,9 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #fafafa;
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
+  --global-text-color: #222222;
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$purple-color};
   --global-hover-color: #{$purple-color};
@@ -14,8 +14,8 @@
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0,0,0,.1);
-  --global-card-bg-color: #{$white-color};
+  --global-divider-color: rgba(0,0,0,.08);
+  --global-card-bg-color: #fafafa;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;

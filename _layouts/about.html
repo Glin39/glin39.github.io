@@ -2,108 +2,70 @@
 layout: default
 ---
 
-<!-- about.html -->
-<div class="about-page-redesign">
-  <!-- Hero Section with Profile -->
-  <div class="hero-section">
-    <div class="hero-content">
-      <div class="hero-text">
-        <h1 class="hero-title">
-          {% if site.title == "blank" -%}
-            <span class="first-name">{{ site.first_name }}</span>
-            <span class="last-name">{{ site.middle_name }} {{ site.last_name }}</span>
-          {%- else -%}
-            {{ site.title }}
-          {%- endif %}
-        </h1>
-        <p class="hero-subtitle">{{ page.subtitle }}</p>
-      </div>
-      
-      {% if page.profile -%}
-      <div class="hero-image">
-        {%- if page.profile.image %}
-          {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
-          {% if page.profile.image_circular %}
-            {%- assign profile_image_class = "profile-img circular" -%}
-          {% else %}
-            {%- assign profile_image_class = "profile-img" -%}
-          {% endif %}
-          <img
-            src="{{ profile_image_path | relative_url }}"
-            class="{{ profile_image_class }}"
-            alt="{{ page.profile.image }}"
-          />
-        {% endif -%}
-      </div>
-      {%- endif %}
-    </div>
-  </div>
+<!-- about.html — Newspaper editorial layout -->
+<div class="about-newspaper">
 
-  <!-- Main Content Grid -->
-  <div class="content-grid">
-    <!-- Left Column: About Content -->
-    <div class="main-content">
-      <article class="about-text">
+  <div class="newspaper-body">
+
+    <div class="newspaper-main">
+      <div class="bio-intro">
+        {%- if page.profile and page.profile.image %}
+        {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+        <img
+          src="{{ profile_image_path | relative_url }}"
+          class="bio-photo{% if page.profile.image_circular %} circular{% endif %}"
+          alt="{{ page.profile.image }}"
+        />
+        {%- endif %}
+        {%- if page.pull_quote %}
+        <blockquote class="pull-quote">{{ page.pull_quote }}</blockquote>
+        {%- endif %}
+      </div>
+
+      <div class="bio-text">
         {{ content }}
-      </article>
+      </div>
 
-      <!-- Social Icons in Main Content -->
+      {%- if page.profile_tags %}
+      <div class="keyword-tags">
+        {%- for tag in page.profile_tags %}
+        <span class="keyword-tag">{{ tag }}</span>
+        {%- endfor %}
+      </div>
+      {%- endif %}
+
       {%- if page.social %}
-        <div class="social-section">
-          <div class="contact-icons">
-            {% include social.html %}
-          </div>
-          {%- if site.contact_note %}
-          <div class="contact-note">
-            {{ site.contact_note }}
-          </div>
-          {%- endif %}
-        </div>
+      <div class="social-section">
+        <div class="contact-icons">{% include social.html %}</div>
+        {%- if site.contact_note %}
+        <p class="contact-note">{{ site.contact_note }}</p>
+        {%- endif %}
+      </div>
       {%- endif %}
 
-      <!-- Selected papers -->
       {% if page.selected_papers -%}
-        <div class="section-block">
-          <h2 class="section-title">
-            <a href="{{ '/publications/' | relative_url }}">Selected Publications</a>
-          </h2>
-          {%- include selected_papers.html %}
-        </div>
+      <div class="sidebar-section" style="margin-top: 3rem;">
+        <h3 class="sidebar-heading">Selected Publications</h3>
+        {%- include selected_papers.html %}
+      </div>
       {%- endif %}
 
-      <!-- Latest posts -->
       {% if page.latest_posts -%}
-        <div class="section-block">
-          <h2 class="section-title">
-            <a href="{{ '/blog/' | relative_url }}">Latest Posts</a>
-          </h2>
-          {%- include latest_posts.html %}
-        </div>
-      {%- endif %}
-
-      <!-- News Section -->
-      {% if page.news and site.announcements.enabled -%}
-        <div class="news-card">
-          <h2 class="section-title">
-            <a href="{{ '/news/' | relative_url }}">News & Updates</a>
-          </h2>
-          <div class="news-content">
-            {%- include news.html limit=true %}
-          </div>
-        </div>
+      <div class="sidebar-section" style="margin-top: 3rem;">
+        <h3 class="sidebar-heading">Latest Posts</h3>
+        {%- include latest_posts.html %}
+      </div>
       {%- endif %}
     </div>
 
-    <!-- Right Column: Sidebar (if needed for other content) -->
-    <aside class="sidebar">
-      {%- if page.profile.address %}
-      <div class="info-widget">
-        <h3 class="widget-subtitle">Location</h3>
-        <div class="address-content">
-          {{ page.profile.address }}
-        </div>
+    <aside class="newspaper-sidebar">
+      {% if page.news and site.announcements.enabled -%}
+      <div class="sidebar-news">
+        <h3 class="sidebar-heading">Recent News</h3>
+        {%- include news.html limit=true %}
       </div>
       {%- endif %}
     </aside>
+
   </div>
 </div>

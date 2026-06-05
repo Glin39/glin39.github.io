@@ -32,7 +32,7 @@
       institution: Google Inc., Mountain View, California, US
       year: 2022 - 2025
       description:
-        - Mentor: Anupam Pathak
+        - "Mentor: Anupam Pathak"
         - Developed LLM-powered prototypes to help users interpret personal health data via memory capture, goal refinement, and reflection.
         - Conducted cross-cultural user studies (U.S., Japan) to assess usability, trust, and perceptions of AI-supported goal setting.
         - Improved prompting, tool integration, and interface feedback based on insights, shaping product design. Presented to Google Execs.
@@ -40,7 +40,7 @@
       institution: Samsung AI Centre, Toronto, Ontario, US
       year: 2022 
       description:
-        - Mentor: Afsaneh Fazly
+        - "Mentor: Afsaneh Fazly"
         - Investigated user task experiences with advanced natural language smart assistants.
         - Conducted 30-participant user study and analyzed data with open-coded sessions and statistical analysis.
     - title: Research Engineer Intern
@@ -143,21 +143,21 @@
   contents:
     - title: Keynote
       description:
-        - "\"End-to-End Research to Foster Holistic Menstrual Health Sensemaking,\" Cycles of Care Workshop Series, University of Zurich, Zurich, Switzerland, May 2026."
+        - '"End-to-End Research to Foster Holistic Menstrual Health Sensemaking," Cycles of Care Workshop Series, University of Zurich, Zurich, Switzerland, May 2026.'
     - title: Paper Presentation
       description:
-        - “\”Understanding the Menstrual Experience through Longitudinal Tracking and Physiological Sensors,\” ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp), October 2024.”
-        - “\”Functional Design Requirements to Facilitate Menstrual Health Data Exploration,\” ACM CHI Conference on Human Factors in Computing Systems, May 2024.”
-        - “\”Identifying Multimodal Context Awareness Requirements for Supporting User Interaction with Procedural Videos,\” ACM CHI Conference on Human Factors in Computing Systems, April 2023.”
-        - “\”Investigating Culturally Responsive Design for Menstrual Tracking and Sharing Practices Among Individuals with Minimal Sexual Education,\” ACM CHI Conference on Human Factors in Computing Systems, April 2022.”
-        - “\”Towards Finding the Optimum Position in the Visual Field for a Head Worn Display Used for Task Guidance with Non-registered Graphics,\” ACM International Joint Conference on Pervasive and Ubiquitous Computing, September 2021.”
-        - “\”Comparing Order Picking Guidance with Microsoft Hololens, Magic Leap, Google Glass XE and Paper,\” International Workshop on Mobile Computing Systems and Applications, February 2021.”
-        - “\”Conversational greeting detection using captioning on head worn displays versus smartphones,\” ACM International Joint Conference on Pervasive and Ubiquitous Computing, September 2020.”
+        - '”Understanding the Menstrual Experience through Longitudinal Tracking and Physiological Sensors,” ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp), October 2024.'
+        - '”Functional Design Requirements to Facilitate Menstrual Health Data Exploration,” ACM CHI Conference on Human Factors in Computing Systems, May 2024.'
+        - '”Identifying Multimodal Context Awareness Requirements for Supporting User Interaction with Procedural Videos,” ACM CHI Conference on Human Factors in Computing Systems, April 2023.'
+        - '”Investigating Culturally Responsive Design for Menstrual Tracking and Sharing Practices Among Individuals with Minimal Sexual Education,” ACM CHI Conference on Human Factors in Computing Systems, April 2022.'
+        - '”Towards Finding the Optimum Position in the Visual Field for a Head Worn Display Used for Task Guidance with Non-registered Graphics,” ACM International Joint Conference on Pervasive and Ubiquitous Computing, September 2021.'
+        - '”Comparing Order Picking Guidance with Microsoft Hololens, Magic Leap, Google Glass XE and Paper,” International Workshop on Mobile Computing Systems and Applications, February 2021.'
+        - '”Conversational greeting detection using captioning on head worn displays versus smartphones,” ACM International Joint Conference on Pervasive and Ubiquitous Computing, September 2020.'
     - title: Other
       description:
-        - “Invited Talk, \”Transforming Commodity Health Data into Meaningful Insights,\” Einstein Cognitive Neuroscience, Gender and Health Lab, February 2025.”
-        - “Invited Talk, \”Investigating Gendered Health and Wellbeing through Tracking and Physiological Sensors,\” Google Consumer Health Research Team Center Review, June 2022.”
-        - “Demo Presentation, \”Towards an Understanding of Real-time Captioning on Head-worn Displays,\” MobileHCI Conference Series, October 2020.”
+        - 'Invited Talk, “Transforming Commodity Health Data into Meaningful Insights,” Einstein Cognitive Neuroscience, Gender and Health Lab, February 2025.'
+        - 'Invited Talk, “Investigating Gendered Health and Wellbeing through Tracking and Physiological Sensors,” Google Consumer Health Research Team Center Review, June 2022.'
+        - 'Demo Presentation, “Towards an Understanding of Real-time Captioning on Head-worn Displays,” MobileHCI Conference Series, October 2020.'
 
 - title: Teaching Experience
   type: time_table
