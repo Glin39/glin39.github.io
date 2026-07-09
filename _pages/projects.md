@@ -53,7 +53,7 @@ nav_order: 2
   </div>
   
   <div class="case-study-visual">
-    <img src="{{ '/assets/img/app_gif.gif' | relative_url }}" alt="Menstrual Health Tracking Interface" class="hero-image" loading="lazy">
+    <img src="{{ '/assets/img/app_gif.gif' | relative_url }}" alt="Menstrual Health Tracking Interface" class="hero-image">
   </div>
 </div>
 
@@ -66,8 +66,6 @@ nav_order: 2
       <div class="card-header">
         {%- if project.img -%}
           <img src="{{ project.img | relative_url }}" alt="{{ project.title }}" class="card-image">
-        {%- else -%}
-          <img src="{{ '/assets/img/default-project.png' | relative_url }}" alt="{{ project.title }}" class="card-image">
         {%- endif -%}
         <div class="card-badge">{{ project.category | default: "Research" }}</div>
       </div>
@@ -276,12 +274,13 @@ nav_order: 2
   gap: 3rem;
   align-items: center;
   color: white;
-  /* Force GPU compositing to prevent border-radius edges disappearing during scroll */
+  will-change: transform;
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   isolation: isolate;
+  contain: layout style;
 }
 
 .case-study-header h2 {
@@ -338,6 +337,13 @@ nav_order: 2
   font-size: 0.9rem;
   opacity: 0.8;
   color: white;
+}
+
+.case-study-visual {
+  /* Own compositor layer so GIF frame updates don't dirty the hero background layer */
+  will-change: transform;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
 }
 
 .hero-image {
