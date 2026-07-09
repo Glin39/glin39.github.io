@@ -276,6 +276,12 @@ nav_order: 2
   gap: 3rem;
   align-items: center;
   color: white;
+  /* Force GPU compositing to prevent border-radius edges disappearing during scroll */
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  isolation: isolate;
 }
 
 .case-study-header h2 {
@@ -366,8 +372,6 @@ nav_order: 2
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
   margin: 3rem 0;
-  content-visibility: auto;
-  contain-intrinsic-size: 0 600px;
 }
 
 .research-card {
@@ -461,8 +465,6 @@ nav_order: 2
   margin-top: 4rem;
   padding-top: 2rem;
   border-top: 2px solid #f0f0f0;
-  content-visibility: auto;
-  contain-intrinsic-size: 0 600px;
 }
 
 .hackathon-grid {
@@ -484,11 +486,13 @@ nav_order: 2
   margin-bottom: 1rem;
   cursor: pointer;
   transition: transform 0.3s ease;
-  transform: translateZ(0);
+  transform: translate3d(0, 0, 0) scale(1);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .hackathon-image:hover {
-  transform: scale(1.05);
+  transform: translate3d(0, 0, 0) scale(1.05);
 }
 
 .hackathon-img {
